@@ -5,6 +5,6 @@ What is "real-time web" functionality? It's the ability to have your server-side
 # How to use this library
 
 The first step is to add the library to the project using Nuget
-<pre lang="no-highlight"><code>
+<code>
 Install-Package SocketNative
-</code></pre>
+</code>
