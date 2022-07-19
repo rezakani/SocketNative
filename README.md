@@ -85,6 +85,12 @@ And finally, make the settings of the startup class
       }
 ```
 
+How to access and send messages outside of the handler class
+
+```cs
+await StartupWebSocket.socketHandler.SendMessageAsync(socketId, SerializeJSON(data));
+```
+
 ## Changelog
 * **1.0.4**
     * Added support for .NET Core 2 and above
